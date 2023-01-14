@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 3px;
+  color: rgb(26, 25, 25);
+}
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+img {
+  max-width: 300px;
+}
+.titulo {
+  display: inline-block;
+  place-self: start;
+  padding: 40px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+.banner {
+  display: grid;
+  gap: 0px;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  padding: 40px;
+}
+.banner img {
+  place-self: center;
+}
+.profissao {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 80px;
+}
