@@ -28,16 +28,24 @@
   color: #525252;
 }
 
-@media (max-width: 1000px) {
-  .introducao {
-    gap: 50px;
+@media (max-width: 900px) {
+  .introducao h1 {
+    font-size: 3.5rem;
   }
 }
 
 @media (max-width: 800px) {
   .introducao {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
+  }
+  .introducao h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 600px) {
+  .introducao {
+    grid-template-columns: 1fr;
   }
   .introducao img {
     display: none;
