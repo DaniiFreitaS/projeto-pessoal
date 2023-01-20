@@ -1,0 +1,91 @@
+.formacao {
+  background: #141414;
+}
+.formacao-grid {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.formacao .subtitulo {
+  color: black;
+}
+
+.formacao-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #a3a3a3;
+}
+
+.formacao-ui {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.formacao-bloco {
+  display: grid;
+  gap: 10px 20px;
+  padding: 20px;
+  background: #000;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: relative;
+}
+.formacao-bloco span {
+  color: #a3a3a3;
+  gap: 20px;
+}
+.formacao-bloco::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+.formacao-titulo {
+  color: white;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.formacao-categoria {
+  color: #8f8f8f;
+}
+.formacao-cursos {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+}
+.formacao-cursos ul {
+  grid-column: 2;
+}
+.formacao-idiomas {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+}
+.formacao-cursos h3 {
+  display: flex;
+  justify-content: space-between;
+}
+.formacao-cursos span {
+  justify-content: end;
+  color: #8f8f8f;
+}
+.formacao-idiomas ul {
+  grid-column: 2;
+  width: 100%;
+}
+.formacao-idiomas span {
+  text-align: end;
+  color: #8f8f8f;
+}
